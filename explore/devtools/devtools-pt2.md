@@ -1,0 +1,2 @@
+1. The bug is that the two variables, num1 and num2, that store the numbers the users enter store them as strings, so when the calculateSum function add the two variable, it performs string concatenation which causes the incorrect sum outputed.
+2. I would use the function parseInt to change the numbers contained in the two num variables from strings to integers, so that the calculateSum function would work properly.
